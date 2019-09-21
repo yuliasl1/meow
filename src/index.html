@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>me{ow}</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+
+        a {
+            cursor: pointer;
+        }
+        html {
+            height: 100% !important;
+            background-image: url('imgs/background.jpg');
+        }
+        body {
+           height: 100% !important;
+        }
+
+        .help-block {
+            font-size: 12px;
+        }
+        video {
+            right: 0px;
+            top: -30px;
+            position: absolute;
+
+        }
+        #app {
+            position: relative;
+
+        }
+         #output {
+            right: 0px;
+            top: 250px;
+            position: fixed;
+        }
+            #img {
+                width: 400px;
+                height: auto;
+                padding:1px;
+                border:1px solid white;
+            }
+
+            div.jumbotron {
+                background-image: url('imgs/background.jpg');
+                height: 100vh;
+            }
+            .TrainCat {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            span {
+                margin-top: -20px;
+                font-size: 20px;
+                text-align: center;
+            }
+            h2, h1 {
+                text-align: center;
+            }
+
+            button {
+
+        margin-top:20px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0;
+        border-radius: 8px;
+        padding-bottom: 0;
+        height: 60px;
+        width: 250px;
+        background: rgb(248, 241, 142);
+        color: black;
+        font-size: 22px;
+        cursor: pointer;
+        transition: all 600ms ease-in-out;
+      }
+      button:hover{
+        background:  #ffeeed;
+      }
+      #site-header{
+          background: #ffeeed;
+          position: relative;
+          height: 200px;
+          margin-top: -70px;
+          padding-top: 50px;
+      }
+      .footer{
+
+    z-index: 100;
+    background: #ffeeed;
+    color: rgba(160,160,159,.8);
+    bottom: 0;
+    width: 100vw;
+    position: fixed;
+    padding: 1.2em 0;
+      }
+      #footer-text{
+        text-align: center;
+      }
+      .icon {
+          height: 100px;
+          width: 100px;
+          color: rgb(165, 217, 233);
+          margin-top: -130px;
+          margin-left: 10px;
+      }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="app">
+    </div>
+
+    <div id="output"><img id='img' src="imgs/start.gif" /></div>
+    <!-- credits -->
+    <footer class="footer">
+
+        <p id="footer-text">
+            <a href="#" target="_top">me{ow} the A.I cat</a>
+        </p>
+    </footer>
+</body>
+
+</html>
