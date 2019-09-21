@@ -21,9 +21,11 @@ class HomePage extends React.Component {
 
                 <h1>Hi {user.firstName}!</h1>
                 <div className="TrainCat" >
-                    <h2>Train your cat</h2>
+                    <h2>Train your Cat</h2>
+
+                <p>If you need help click on "?" icon in the upper left corner. </p>
                     </div>
-                <h3>All registered users:</h3>
+                {/* <h3>All registered users:</h3>
                 {users.loading && <em>Loading users...</em>}
                 {users.error && <span className="text-danger">ERROR: {users.error}</span>}
                 {users.items &&
@@ -39,9 +41,9 @@ class HomePage extends React.Component {
                             </li>
                         )}
                     </ul>
-                }
-                <p>
-                    <Link to="/login">Logout</Link>
+                } */}
+                <p id='logout'>
+                    <Link to="/login">Not {user.firstName}? Logout</Link>
                 </p>
             </div>
         );

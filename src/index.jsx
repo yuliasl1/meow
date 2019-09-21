@@ -55,7 +55,7 @@ class Train {
             // Create training button
             const button = document.createElement('button')
             var element = document.querySelector(".TrainCat");
-            button.innerText = "Train me{ow} to " + this.buttonText[i];
+            button.innerText = "Train Me{ow} to " + this.buttonText[i];
             element.appendChild(button);
             //element.insertAdjacentHTML('afterEnd', button)
 
